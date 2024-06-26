@@ -1,5 +1,5 @@
 from netbox.plugins import PluginMenuButton, PluginMenuItem
-from utilities.choices import ButtonColorChoices
+# from utilities.choices import ButtonColorChoices
 
 menu_items = (
     PluginMenuItem(
@@ -18,7 +18,7 @@ buttons=(
         # font-awesome icon to use
         icon_class="mdi mdi-plus-thick", # 'fa fa-plus' didn't work
         # defines color button to green
-        color=ButtonColorChoices.GREEN,
+        # color=ButtonColorChoices.GREEN,
         permissions=["netbox_proxbox.add_proxmoxvm"],
     ),
 ),
